@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<!--header section start-->
+    <header>
+<!--first section-->
+        <section class="bg-white text-dark">
+            <div class="container py-2">
+                <div class="row d-felx">
+                    <div class="col-md-4">
+                        <ul class="nav">
+                            <li class="ms-2 fw-bold fs-2 mt-2">Consolution</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row d-flex">
+                            <div class="col-md-4">
+                                <ul class="nav">
+                                    <li class="mt-2"><i class="fa-solid fa-paper-plane icon"></i><span class="fw-bold"> Email</span><br/><span class="text-muted">youremail@email.com</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="nav">
+                                    <li class="mt-2"><i class="fa-solid fa-phone icon"></i> <span class="fw-bold"> Call</span><br/><span class="text-muted">Call Us: + 1235 2355 98</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="nav">
+                                    <li class="mt-2"><a href="" class="btn btn-primary py-2 px-4"><span>Free Consulting</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--second part-->
+        <nav class="navbar navbar-expand-md bg-dark">
+            <div class="container d-flex">
+                <div class="row">
+                    <div class="col-md-9">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="me-2"><a href="" class="nav-link fw-light text-white">Home</a></li>
+                            <li class="me-2"><a href="" class="nav-link fw-light text-white">About</a></li>
+                            <li class="me-2"><a href="" class="nav-link fw-light text-white">Projects</a></li>
+                            <li class="me-2"><a href="" class="nav-link fw-light text-white">Services</a></li>
+                            <li class="me-2"><a href="" class="nav-link fw-light text-white">Blog</a></li>
+                            <li class="me-2"><a href="" class="nav-link fw-light text-white">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="navbar-nav">
+                            <li class="me-0 px-5"><a href="" class="nav-link "><input type="text" placeholder="Search"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--header section end-->
+
+<!--banner section start-->
+<section class="banner-section">
+    <div class="container-fluid h-100">
+        <div id="slider" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item-active">
+                    <img src="img/bg_1.jpg" alt="" class="w-100 img-fluid" height="500">
+                    <div class="carousel-caption bg-secondary opacity-25" style= bottom: "150px;">
+                        <h6>Todays talent, Tommorow success </h6>
+                        <h1>We Help To Grow Your Business</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script>
+    $(document).ready(function() {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+    })
+</script>
+</body>
+</html>
+https://preview.colorlib.com/theme/consolution
